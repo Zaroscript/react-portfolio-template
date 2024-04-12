@@ -2,6 +2,6 @@
 
 ## Live Demo
 
-https://vermillion-hummingbird-f8aa20.netlify.app/
+https://zaroscript-react-portfolio-template.netlify.app/
 
 
