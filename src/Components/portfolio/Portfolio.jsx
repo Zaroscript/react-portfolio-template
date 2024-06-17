@@ -12,43 +12,43 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Zaro template",
-    github: "https://github.com/Andrew801168/Zaro-template.git",
-    demo: "https://andrew801168.github.io/Zaro-template/",
+    github: "https://github.com/Zaroscript/Zaro-template.git",
+    demo: "https://zaroscript.github.io/Zaro-template/",
   },
   {
     id: 2,
     image: IMG2,
     title: "Fylo dark theme landing page",
-    github: "https://github.com/Andrew801168/Fylo-Dark_theme.git",
-    demo: "https://andrew801168.github.io/Fylo-Dark_theme/",
+    github: "https://github.com/zaroscript/Fylo-Dark_theme.git",
+    demo: "https://zaroscript.github.io/Fylo-Dark_theme/",
   },
   {
     id: 3,
     image: IMG3,
     title: "Dashboard template",
-    github: "https://github.com/Andrew801168/Dash-Board-Template.git",
-    demo: "https://andrew801168.github.io/Dash-Board-Template/",
+    github: "https://github.com/zaroscript/Dash-Board-Template.git",
+    demo: "https://zaroscript.github.io/Dash-Board-Template/",
   },
   {
     id: 4,
     image: IMG4,
     title: "Ecommerce product page component",
-    github: "https://github.com/Andrew801168/ecommerce-product-page-main.git",
-    demo: "https://andrew801168.github.io/ecommerce-product-page-main/",
+    github: "https://github.com/Zaroscript/ecommerce-product-page.git",
+    demo: "https://zaroscript.github.io/ecommerce-product-page/",
   },
   {
     id: 5,
     image: IMG5,
     title: "Special landing page design with bootstrap",
-    github: "https://github.com/Andrew801168/Special-Design.git",
-    demo: "https://andrew801168.github.io/Special-Design/",
+    github: "https://github.com/Zaroscript/Special-Design.git",
+    demo: "https://zaroscript.github.io/Special-Design/",
   },
   {
     id: 6,
     image: IMG6,
     title: "Show shop landing page with creative drop navbar menu",
-    github: "https://github.com/Andrew801168/shoes-shop-template.git",
-    demo: "https://andrew801168.github.io/shoes-shop-template/",
+    github: "https://github.com/Zaroscript/shoes-shop-template.git",
+    demo: "https://zaroscript.github.io/shoes-shop-template/",
   },
 ];
 
@@ -59,7 +59,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({id, image, title, github, demo}) => (
+        {data.map(({ id, image, title, github, demo }) => (
           <article className="portfolio__item" key={id}>
             <div className="portfolio__item-image">
               <img src={image} alt={title} />
